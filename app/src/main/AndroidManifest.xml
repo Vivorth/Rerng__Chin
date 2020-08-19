@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rerngchin">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="រឿងភាគចិន"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".snevealksach" />
+        <activity android:name=".yuthsil_bongvil" />
+        <activity android:name=".torb_amatak" />
+        <activity android:name=".tolaka" />
+        <activity android:name=".proyuth_tovmek" />
+        <activity android:name=".preng_davboran" />
+        <activity android:name=".preahneangtoch" />
+        <activity android:name=".pjuskambit" />
+        <activity android:name=".oumeyneang" />
+        <activity android:name=".nisaisne_thansur" />
+        <activity android:name=".nisaisne_tevada3jeat" />
+        <activity android:name=".nisaisne_tevada" />
+        <activity android:name=".nisaisne_daptep" />
+        <activity android:name=".nekklahan_davtep" />
+        <activity android:name=".nekbromanh" />
+        <activity android:name=".mohitrith_tmor" />
+        <activity android:name=".kompheng" />
+        <activity android:name=".jusean2" />
+        <activity android:name=".jikong" />
+        <activity android:name=".javjilong" />
+        <activity android:name=".inker" />
+        <activity android:name=".entritep" />
+        <activity android:name=".bongpaoun" />
+        <activity android:name=".athireach_jombang" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4367711231564788~1617396558" />
+    </application>
+
+</manifest>

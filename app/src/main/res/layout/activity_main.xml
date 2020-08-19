@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <com.gauravk.bubblenavigation.BubbleNavigationLinearView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:elevation="8dp"
+        android:id="@+id/bottomNavi"
+
+        android:orientation="horizontal"
+        android:padding="12dp">
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/l_item_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_active="true"
+            app:bt_colorActive="#4BA200"
+            app:bt_colorInactive="#C61B06"
+            app:bt_icon="@drawable/ic_baseline_home_work_24"
+            app:bt_title="រឿងភាគបុរាណ"
+            android:layout_marginRight="20dp"
+            app:bt_shapeColor="#000000"/>
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/l_item_home1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_active="true"
+            app:bt_colorActive="#4BA200"
+            app:bt_colorInactive="#C61B06"
+            app:bt_icon="@drawable/ic_baseline_toys_24"
+            app:bt_title="រឿងបុរាណ"
+            android:layout_marginRight="20dp"
+            app:bt_shapeColor="#000000"/>
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/l_item_home2"
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            app:bt_active="true"
+            app:bt_colorActive="#4BA200"
+            app:bt_colorInactive="#C61B06"
+            app:bt_icon="@drawable/ic_baseline_info_24"
+            app:bt_shapeColor="#000000"
+            app:bt_title="អំពីពួ្កយើង" />
+
+
+    </com.gauravk.bubblenavigation.BubbleNavigationLinearView>
+
+    <FrameLayout
+        android:layout_above="@id/bottomNavi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main_frame"
+        />
+</RelativeLayout>

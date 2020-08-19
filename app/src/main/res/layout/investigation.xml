@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-4367711231564788/7991233212"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="2"
+            android:rowCount="3"
+            android:columnOrderPreserved="false"
+            android:alignmentMode="alignMargins"
+            >
+            <androidx.cardview.widget.CardView
+                android:id="@+id/athireach_jombang"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="8dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="2.5dp"
+                android:layout_marginBottom="2.5dp"
+                >
+
+                <ImageView
+                    android:background="@drawable/athireach_jombang"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/bongpaoun"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="8dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginBottom="2.5dp"
+                android:layout_marginRight="5dp"
+
+
+                >
+
+                <ImageView
+                    android:background="@drawable/bongpaoun"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/entri_tep"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="8dp"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="2.5dp"
+                android:layout_marginBottom="2.5dp"
+                >
+
+                <ImageView
+                    android:background="@drawable/entri_tep"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/inker"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="8dp"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginBottom="2.5dp"
+                android:layout_marginRight="5dp"
+
+                >
+
+                <ImageView
+                    android:background="@drawable/inker"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/javjilong"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="8dp"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="2.5dp"
+                android:layout_marginBottom="2.5dp"
+                >
+
+                <ImageView
+                    android:background="@drawable/javjilong"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/jikong"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="8dp"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginBottom="2.5dp"
+                android:layout_marginRight="5dp"
+
+                >
+
+                <ImageView
+                    android:background="@drawable/jikong"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/jusean2"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="8dp"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="2.5dp"
+                android:layout_marginBottom="2.5dp"
+
+                >
+
+                <ImageView
+                    android:background="@drawable/jusean2"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/kompheng"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="8dp"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginBottom="2.5dp"
+                android:layout_marginRight="5dp"
+
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/kompheng" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/mohitrith_tmor"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="8dp"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginBottom="2.5dp"
+                android:layout_marginRight="5dp"
+
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/mohitrith_tmor" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/nekbromanh"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="8dp"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="2.5dp"
+                android:layout_marginBottom="2.5dp"
+                >
+
+                <ImageView
+                    android:background="@drawable/nekbromanh"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/nekklahan_davtep"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="8dp"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginBottom="2.5dp"
+                android:layout_marginRight="5dp"
+
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/nekklahan_davtep" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/nisaisne_davtep"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="8dp"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="2.5dp"
+                android:layout_marginBottom="2.5dp"
+                >
+
+                <ImageView
+                    android:background="@drawable/nisaisne_davtep"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/nisaisne_tevada"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="8dp"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginBottom="2.5dp"
+                android:layout_marginRight="5dp"
+
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/nisaisne_tevada" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/nisaisne_tevada3jeat"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="8dp"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="2.5dp"
+                android:layout_marginBottom="2.5dp"
+                >
+
+                <ImageView
+                    android:background="@drawable/nisaisne_tevada3jeat"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/nisaisne_thansur"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="8dp"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginBottom="2.5dp"
+                android:layout_marginRight="5dp"
+
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/nisaisne_thansur" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/oumeyneang"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="8dp"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="2.5dp"
+                android:layout_marginBottom="2.5dp"
+                >
+
+                <ImageView
+                    android:background="@drawable/oumeyneang"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/pjuskambit"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="8dp"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginBottom="2.5dp"
+                android:layout_marginRight="5dp"
+
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/pjuskambit" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/preahneang_toch"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="8dp"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="2.5dp"
+                android:layout_marginBottom="2.5dp"
+                >
+
+                <ImageView
+                    android:background="@drawable/preahneang_toch"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/proyuth_tovmek"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="8dp"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginBottom="2.5dp"
+                android:layout_marginRight="5dp"
+
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/proyuth_tovmek" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/preng_davboran"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="8dp"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginBottom="2.5dp"
+                android:layout_marginRight="5dp"
+
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/preng_davboran" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/snevealksach"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="8dp"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginBottom="2.5dp"
+                android:layout_marginRight="5dp"
+
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/snevealksach" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/tolaka"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="8dp"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginBottom="2.5dp"
+                android:layout_marginRight="5dp"
+
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/tolaka" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/torb_amatak"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="8dp"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginBottom="2.5dp"
+                android:layout_marginRight="5dp"
+
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/torb_amatak" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/yuthsil_bongvil"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="8dp"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginBottom="2.5dp"
+                android:layout_marginRight="5dp"
+
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/yuthsil_bongvil" />
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>
+    </RelativeLayout>
